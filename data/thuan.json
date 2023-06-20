@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "new_preview1.jpg",
+    "title": "01. Default"
+  },
+  {
+    "id": 2,
+    "image": "new_preview2.jpg",
+    "title": "01. Default Dark"
+  },
+  {
+    "id": 3,
+    "image": "new_preview9.png",
+    "title": "03. Default Background Image"
+  },
+  {
+    "id": 4,
+    "image": "new_preview3.jpg",
+    "title": "04. Developer"
+  },
+  {
+    "id": 5,
+    "image": "new_preview4.jpg",
+    "title": "05. Designer"
+  },
+  {
+    "id": 6,
+    "image": "new_preview5.jpg",
+    "title": "06. Trainer"
+  },
+  {
+    "id": 7,
+    "image": "new_preview6.jpg",
+    "title": "07. Lawyer"
+  },
+  {
+    "id": 8,
+    "image": "new_preview7.jpg",
+    "title": "08. Writer"
+  },
+  {
+    "id": 9,
+    "image": "new_preview8.jpg",
+    "title": "09. Musician"
+  }
+]
