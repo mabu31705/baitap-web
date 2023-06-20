@@ -17,11 +17,14 @@
     margin-top: 5%;
 }
 .cv-bg-2{
-    box-shadow: 0 2px 48px 0 rgba(0,0,0,.04);
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,.1);
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
 
+}
+.cv-bg-2:hover {
+    box-shadow: 0 2px 48px 0 rgba(255,0,0,.2);
 }
 .cv-image-content{
     width: 100%;
