@@ -12,6 +12,9 @@ getDataFromJson = () => {
 }
 getDataFromJson();
 
+
+
+
 // vòng lặp lấy dữ liệu từ localstorage về và in ra html
 getListCV = () => {
     let listCV = document.getElementById("cvList");
