@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.project {
+    background-color: #d8dbe2;
+    color: #626262;
+}
+
+/* Comon */
+.text-center {
+    text-align: center;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+h5 {
+    color: #171717;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    background-size: contain;
+}
+
+/* Content-demo */
+
+#demo-content {
+    padding: 100px 15px;
+    margin: 30px 100px 0px 100px;
+}
+
+/* Logo */
+#demo-content .logo {
+
+}
+
+#demo-content .logo img {
+    width: 200px;
+}
+
+#demo-content .logo p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* CV */
+#demo-content .cv {
+
+}
+
+.row .col {
+}
+
+.row .col a {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    width: 33.33333%;
+    text-decoration: none;
+    float: left;
+}
+
