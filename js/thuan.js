@@ -1,4 +1,5 @@
 // tạo file trên localstorage (bộ nhớ tạm)
+// mô phỏng cơ sở dữ liệu
 getDataFromJson = () => {
     fetch("../data/thuan.json")
         .then(res => res.json())
@@ -13,15 +14,12 @@ getDataFromJson = () => {
 getDataFromJson();
 
 
-
-
 // vòng lặp lấy dữ liệu từ localstorage về và in ra html
 getListCV = () => {
     let listCV = document.getElementById("cvList");
     let listImage2 = localStorage.getItem("images");
     let htmlContent = '';
     let listImage = JSON.parse(listImage2);
-
     for (let i = 0; i < listImage.length; i++) {
         htmlContent += ' <div class="cv-content-width col-md-4 col-sm-6 row cv-p-20">\n' +
             '                       <a href="#" class="cv-a"> ' +
@@ -38,4 +36,5 @@ getListCV = () => {
     }
     listCV.innerHTML = htmlContent;
 }
+
 document.addEventListener("DOMContentLoaded", getListCV);
