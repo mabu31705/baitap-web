@@ -59,7 +59,6 @@
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 .cv-bgr:hover {
@@ -77,7 +76,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
 }
 
 .cv-image {
