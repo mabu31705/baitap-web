@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../lib/bootstrap/bootstrap-min-5.3.0.css">
+    <link rel="stylesheet" href="../lib/fontawesome/fontawesome-all-min-6.4.0.css">
+    <link rel="stylesheet" href="../css/thuan-1.css">
+    <script src="../lib/bootstrap/bootstrap-min-5.3.0.js"></script>
+    <script src="../lib/jquery/jquery-min-3.7.0.js"></script>
+    <script src="../js/thuan-1.js"></script>
+</head>
+<style>
+    body, html {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #29b6f6;
+    }
+
+    .bubbles {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    .bubble {
+        position: absolute;
+        bottom: -100px;
+        width: 40px;
+        height: 40px;
+        background: #f1f1f1;
+        opacity: 0.5;
+        animation-name: rise,rotated;
+        animation-duration: 10s, 2s;
+        animation-timing-function: linear, ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .bubble:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        left: 10%;
+        animation-duration: 10s;
+    }
+
+    /*.bubble:nth-child(2){*/
+    /*    width:20px;*/
+    /*    height:20px;*/
+    /*    left:20%;*/
+    /*    animation-duration:7s;*/
+    /*    animation-delay:1s;*/
+    /*}*/
+    /*.bubble:nth-child(3){*/
+    /*    width:50px;*/
+    /*    height:50px;*/
+    /*    left:35%;*/
+    /*    animation-duration:9s;*/
+    /*    animation-delay:2s;*/
+    /*}*/
+    /*.bubble:nth-child(4){*/
+    /*    width:80px;*/
+    /*    height:80px;*/
+    /*    left:50%;*/
+    /*    animation-duration:13s;*/
+    /*    animation-delay:0s;*/
+    /*}*/
+    /*.bubble:nth-child(5){*/
+    /*    width:35px;*/
+    /*    height:35px;*/
+    /*    left:55%;*/
+    /*    animation-duration:8s;*/
+    /*    animation-delay:1s;*/
+    /*}*/
+    /*.bubble:nth-child(6){*/
+    /*    width:45px;*/
+    /*    height:45px;*/
+    /*    left:65%;*/
+    /*    animation-duration:10s;*/
+    /*    animation-delay:3s;*/
+    /*}*/
+    /*.bubble:nth-child(7){*/
+    /*    width:90px;*/
+    /*    height:90px;*/
+    /*    left:70%;*/
+    /*    animation-duration:14s;*/
+    /*    animation-delay:2s;*/
+    /*}*/
+    /*.bubble:nth-child(8){*/
+    /*    width:25px;*/
+    /*    height:25px;*/
+    /*    left:80%;*/
+    /*    animation-duration:8s;*/
+    /*    animation-delay:2s;*/
+    /*}*/
+    /*.bubble:nth-child(9){*/
+    /*    width:15px;*/
+    /*    height:15px;*/
+    /*    left:70%;*/
+    /*    animation-duration:7s;*/
+    /*    animation-delay:1s;*/
+    /*}*/
+    /*.bubble:nth-child(10){*/
+    /*    width:90px;*/
+    /*    height:90px;*/
+    /*    left:25%;*/
+    /*    animation-duration:12s;*/
+    /*    animation-delay:4s;*/
+    /*}*/
+    @keyframes rise {
+        0% {
+            bottom: -100px;
+            transform: translateX(0);
+        }
+        50% {
+            transform: translate(100px);
+        }
+        100% {
+            bottom: 1080px;
+            transform: translateY(-200px);
+        }
+    }
+
+    @keyframes rotated {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+</style>
+<body>
+<section id="cv-1-body">
+</section>
+
+<section class="sticky">
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+</section>
+</body>
+</html>
