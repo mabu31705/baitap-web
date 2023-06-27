@@ -20,11 +20,11 @@ getListCV = () => {
     let htmlContent = '';
     let listImage = JSON.parse(listImage2);
     for (let i = 0; i < listImage.length; i++) {
-        htmlContent += ' <div class="cv-content-width col-md-4 col-sm-6 row cv-p-20">\n' +
+        htmlContent += '<div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 cv-p-10">\n' +
             '                       <a href="#" class="cv-a"> ' +
             '                           <div class="cv-bg-2 ">\n' +
             '                               <div>\n' +
-            '                                   <img src="../images/' + listImage[i].image + '" alt="" class="cv-image-content">\n' +
+            '                                   <img src="../images/' + listImage[i].image + '" alt="" class="cv-image-content p-1">\n' +
             '                               </div>\n' +
             '                               <div class="d-flex justify-content-center">\n' +
             '                                   <h5 class="cv-content-title">' + listImage[i].title + '</h5>\n' +

@@ -3,12 +3,10 @@
     color: #626262;
     font-size: 14px;
     font-weight: 400;
-    padding: 0;
-    margin: 0;
     letter-spacing: 0;
 }
 .cv-img-title{
-    width: 200px;
+    width: 30%;
 }
 .cv-body{
     box-sizing: border-box;
@@ -41,11 +39,15 @@
     text-overflow: ellipsis;
 
 }
-.cv-p-20{
-    padding: 20px;
+.cv-p-10{
+    padding: 10px;
 }
 .cv-p{
     padding: 5%;
+}
+.cv-m-r-8{
+    margin-right: 8%;
+    margin-left: 8%;
 }
 .cv-a{
     text-decoration: none;
